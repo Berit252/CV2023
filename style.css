@@ -1,0 +1,42 @@
+/* 基础样式 */
+body {
+  font-family: Arial, sans-serif;
+  color: aliceblue;
+}
+
+.content {
+  margin: 20px;
+}
+
+/* 屏幕宽度小于600px */
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 22px;
+    background-image: url('/img/5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+}
+
+/* 屏幕宽度在600px到1200px之间 */
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+  body {
+    font-size: 20px;
+    background-image: url('/img/onTheRoad-40.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+}
+
+/* 屏幕宽度大于1200px */
+@media screen and (min-width: 1201px) {
+  body {
+    font-size: 18px;
+    background-image: url('/img/onTheRoad-40.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+}
