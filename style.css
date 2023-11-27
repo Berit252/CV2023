@@ -12,7 +12,7 @@ body {
 @media screen and (max-width: 600px) {
   body {
     font-size: 22px;
-    background-image: url('/img/5.jpg');
+    background-image: url('5.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -23,7 +23,7 @@ body {
 @media screen and (min-width: 601px) and (max-width: 1200px) {
   body {
     font-size: 20px;
-    background-image: url('/img/onTheRoad-40.jpg');
+    background-image: url('onTheRoad-40.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -34,7 +34,7 @@ body {
 @media screen and (min-width: 1201px) {
   body {
     font-size: 18px;
-    background-image: url('/img/onTheRoad-40.jpg');
+    background-image: url('onTheRoad-40.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
