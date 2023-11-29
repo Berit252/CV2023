@@ -8,22 +8,12 @@ body {
   margin: 20px;
 }
 
-/* 屏幕宽度小于600px */
-@media only screen and (max-width: 768px) {
-  body {
-    font-size: 22px;
-    background-image: url('5.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
-}
 
 /* 屏幕宽度在600px到1200px之间 */
-@media only screen and (min-width: 769px) and (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
   body {
-    font-size: 20px;
-    background-image: url('onTheRoad-40 LargeConvert.jpeg');
+    font-size: 26px;
+    background-image: url('5.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -33,7 +23,7 @@ body {
 /* 屏幕宽度大于1200px */
 @media only screen and (min-width: 1201px) {
   body {
-    font-size: 18px;
+    font-size: 20px;
     background-image: url('onTheRoad-40 LargeConvert.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
