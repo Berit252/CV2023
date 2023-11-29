@@ -9,7 +9,7 @@ body {
 }
 
 /* 屏幕宽度小于600px */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   body {
     font-size: 22px;
     background-image: url('5.jpg');
@@ -20,7 +20,7 @@ body {
 }
 
 /* 屏幕宽度在600px到1200px之间 */
-@media screen and (min-width: 601px) and (max-width: 1200px) {
+@media screen and (min-width: 769px) and (max-width: 1200px) {
   body {
     font-size: 20px;
     background-image: url('onTheRoad-40.jpg');
